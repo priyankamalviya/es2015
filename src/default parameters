@@ -1,0 +1,5 @@
+//In ES6, we can put the default values right in the signature of the functions like so:
+
+let temp = function(length = 10, text = "Hello There"){
+//function definition goes here
+}
