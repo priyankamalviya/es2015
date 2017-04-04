@@ -1,0 +1,11 @@
+array =[1, 2, 5, 1, 8, 8, 9];
+
+newArray=[];
+
+array.forEach(function(item){
+  if(newArray.indexOf(item) === -1){
+    newArray.push(item);
+  }
+});
+
+console.log(newArray);
