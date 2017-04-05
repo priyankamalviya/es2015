@@ -15,3 +15,7 @@ class SingletonExample {
     return singletonInstance;
   }
 }
+
+// Create a two new instances of singleton Class
+let singletonExample = new SingletonExample();
+let singletonExample2 = new SingletonExample();
