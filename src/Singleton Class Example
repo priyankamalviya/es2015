@@ -1,0 +1,17 @@
+let singletonInstance = null;
+
+class SingletonExample {
+  constructor() {
+    // Check if the instance exists or is null
+    if (!singletonInstance) {
+      // If null, set singletonInstance to this Class 
+      singletonInstance = this;
+      console.log("Singleton Class Created!");
+    } else {
+      console.log("Whoopsie, you're only allowed one instance of this Class!");
+    }
+
+    // Returns the initiated Class
+    return singletonInstance;
+  }
+}
