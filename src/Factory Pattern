@@ -1,0 +1,13 @@
+//Definition of class
+class User {
+    constructor(typeOfUser){
+        this._canEditEverything = false;
+        if (typeOfUser === "administrator") {               
+            this._canEditEverything = true;
+        }
+    }
+    get canEditEverything() { return this._canEditEverything; }
+}
+//Instatiation
+let u1 = new User("normalGuy");
+let u2 = new User("administrator");
