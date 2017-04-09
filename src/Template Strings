@@ -1,0 +1,6 @@
+const name = "Priyanka";
+const address = "New Delhi";
+
+let salutation = `My name is ${name} and I live in ${address}`;
+
+console.log(salutation);
