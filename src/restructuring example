@@ -1,0 +1,5 @@
+// Lets say you want to get the target of a click event
+
+$("#id").click(function({target}){
+  console.log(`You clicked on ${target}`);
+});
