@@ -1,0 +1,5 @@
+let  value ={
+mean: "React" 
+};
+  let srcKeys = Object.keys(value);
+  document.write(srcKeys);
