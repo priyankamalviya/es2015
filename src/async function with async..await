@@ -1,0 +1,21 @@
+const fetch = require("node-fetch);
+
+
+// add async before function 
+async function githubUser(user){
+  const url = 'https://api.github.com/users/${user}';
+  
+  //use await keyword to wait till the promise is settled and fetch returns a response
+  const response = await fetch(url);
+  
+  //now parse the body of response 
+  const userInfo = await response.json();
+  
+  //the json method returns a promise as well. This means we can use await method to wait till this promise is settled too
+  
+  console.log(userInfo.name);
+   console.log(userInfo.location);
+}
+
+
+githubUser("priyankamalviya");
