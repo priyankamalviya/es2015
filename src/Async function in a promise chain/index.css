@@ -1,0 +1,24 @@
+body{
+  background: IndianRed;
+}
+
+div{
+  width: 25em;
+  margin: 10em auto;
+}
+
+input {
+    width: 100%;
+    padding: 0.7em;
+    margin-bottom: 0.5em;
+    border: 0.5em solid #CCC;
+    border-radius: 1.5em;
+    text-align: center;
+    font-weight: 900;
+    color: #7CCC14;
+    background: transparent;
+    
+    &:focus {
+      outline: 0.1em solid #7CCC14;
+      background: transparent;
+    }
