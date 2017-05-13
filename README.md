@@ -9,5 +9,8 @@ Multiple Promises sequantially await - github API : https://codepen.io/priyankam
 
 Multiple Promises concurrently await -github API : https://codepen.io/priyankamalviya/pen/Omzxpb
 
+Await multiple promises using .all() : http://codepen.io/priyankamalviya/pen/GmxpGM
+
+
 
 
