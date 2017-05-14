@@ -11,6 +11,10 @@ Multiple Promises concurrently await -github API : https://codepen.io/priyankama
 
 Await multiple promises using .all() : http://codepen.io/priyankamalviya/pen/GmxpGM
 
+Map function using immutable.js library: https://codepen.io/priyankamalviya/pen/jmKbOB?editors=1011
+
+
+
 
 
 
