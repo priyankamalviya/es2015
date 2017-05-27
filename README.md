@@ -13,6 +13,9 @@ Await multiple promises using .all() : http://codepen.io/priyankamalviya/pen/Gmx
 
 Map function using immutable.js library: https://codepen.io/priyankamalviya/pen/jmKbOB?editors=1011
 
+ES6-document.forms: https://codepen.io/priyankamalviya/pen/QvPVyZ/
+
+
 
 
 
