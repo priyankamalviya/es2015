@@ -1,5 +1,5 @@
 var d = Promise((resolve, reject) =>{
-  setTimeOut(() => if(true){
+  setTimeout(() => if(true){
   resolve('Hello World');
   }else{
   reject('Its an error');
