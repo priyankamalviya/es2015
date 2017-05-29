@@ -15,6 +15,9 @@ Map function using immutable.js library: https://codepen.io/priyankamalviya/pen/
 
 ES6-document.forms: https://codepen.io/priyankamalviya/pen/QvPVyZ/
 
+ES6_rest_operator_usage.js: https://codepen.io/priyankamalviya/pen/wdLWpW/
+
+
 
 
 
