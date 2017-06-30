@@ -1,0 +1,53 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+#search{
+  /*margin & display will center align the input box*/ 
+  margin: 10px auto;
+  display: block;
+  width: 340px;
+  height: 40px;
+  border:0;
+  font-size: 16px;
+  padding-left: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+   
+}
+
+#search:focus{
+  outline:0;
+}
+
+#list{
+  position: relative;
+  margin: auto;
+  width: 300px;
+  height: 350px;
+  padding: 10px 20px;
+  overflow: scroll;
+  background: #fff;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+#list li{
+  padding: 5px 10px;
+  line-height: 25px;
+  list-style: none;
+  font-size: 16px;
+  border-bottom: 1px solid #adadad;
+  box-sizing: border-box;
+}
+#list li:last-of-type{
+  border:0;
+}
+#spacer{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  bottom:0;
+  width:100%;
+  height: 15px;
+  background: #fff;
+  z-index: 1;
+}
