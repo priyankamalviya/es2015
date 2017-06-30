@@ -23,8 +23,5 @@ regex: regex III(find correct url): https://codepen.io/priyankamalviya/pen/weKKR
 
 regex: regex IV (character classes) : https://codepen.io/priyankamalviya/pen/BZjLRO
 
-
-
-
-
+jQuery search from a list: https://codepen.io/priyankamalviya/pen/BZYJEd
 
