@@ -16,7 +16,7 @@ $('#search').keyup(function(){
   console.log(v);
    $('#listStyle').remove();
    if(v.length > 0){
-     /* just hide ( display:none; ) all the words in the list that arent adding up to the value typed - simple filter*/
+      /* just hide ( display:none; ) all the words in the list that arent adding up to the value typed - simple filter. To do this, create a <style> tag and add display: none property to all the Lis that do not match our characters entered - #li > li:not..*/
      $('#search').after('<style id="listStyle">#list > li:not([data-content *="' + v +'" ]) {display: none;} </style>');
    }
 });
