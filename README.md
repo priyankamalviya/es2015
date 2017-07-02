@@ -25,3 +25,5 @@ regex: regex IV (character classes) : https://codepen.io/priyankamalviya/pen/BZj
 
 jQuery search from a list: https://codepen.io/priyankamalviya/pen/BZYJEd
 
+Vanilla JS table filter : https://codepen.io/priyankamalviya/pen/zzWZEa
+
