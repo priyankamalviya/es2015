@@ -28,3 +28,5 @@ jQuery search from a list: https://codepen.io/priyankamalviya/pen/BZYJEd
 Vanilla JS table filter : https://codepen.io/priyankamalviya/pen/zzWZEa
 
 JS Generator - I : https://codepen.io/priyankamalviya/pen/XaKYaq
+
+JS Generator - II: https://codepen.io/priyankamalviya/pen/xLEXwp
