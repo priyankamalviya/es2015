@@ -1,0 +1,14 @@
+/* The Set object lets you store unique values of any type, whether primitive values or object references. */
+
+/* initialization */
+
+let mySet = new Set();
+
+// add items
+
+mySet.add({a: 1, b: 2});
+
+
+// iterate over items in set
+// logs the items in the order: 1, "some text", {"a": 1, "b": 2}, {"a": 1, "b": 2} 
+for (let item of mySet) console.log(item);
