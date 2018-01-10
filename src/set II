@@ -1,0 +1,3 @@
+// logs the items in the order: 1, "some text", {"a": 1, "b": 2}, {"a": 1, "b": 2} 
+//(key and value are the same here)
+for (let [key, value] of mySet.entries()) console.log(key);
