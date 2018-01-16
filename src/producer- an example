@@ -1,0 +1,36 @@
+/* In javascript, immutability is not a built in state. 
+Here we are using a library caller immer to implement structurally shared data structure. 
+
+Below is an example of a true producer - 
+the producer function takes in current state and produces next state which shares the data structure of previous state 
+and keeps the previous state immutable. */
+
+
+import produce from 'immer'
+
+const todos = [
+    'foo': '1',
+    'bar': '2'
+];
+
+const nextTodos = produce(todos, draft => {
+  draft.push({text: "Learn immer", done: true})
+  draft[1].done = true
+})
+
+// old state is unmodified
+
+console.log(todos.length) //2
+console.log(todos[1].done) // false
+
+// new state reflects the draft
+
+console.log(nextTodos.length) // 3
+console.log(nextTodos[1].done) // true
+
+//structural sharing
+
+console.log(todos === nextTodos) // false
+console.log(todos[0] ===nextTodos[0]) // true
+
+console.log(todos[1] === nextTodos[1])  // false
