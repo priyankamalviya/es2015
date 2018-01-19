@@ -1,0 +1,7 @@
+let items = [10, 3, 40, 30, 30];
+
+
+items.sort( (x, y) => x-y; );
+
+
+console.log(items);
