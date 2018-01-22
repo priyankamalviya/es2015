@@ -1,0 +1,15 @@
+/* Scenario: you need to write a function that must require 2 arguments, lets say division.
+    Problem: In JavaScript, if we do not provide both arguments, the result of division will simply result in NaN, which is not desired.
+              If the programmer fails to provide all required arguments, 
+              ideally the console should spit out an error that points out which argument hasnt been provided.
+              
+    Solution: we can simply define a require function that contains custom error in case the variable is not provided.
+*/
+
+
+const require = (param) => {
+  return new Error (`${param} is not defined`);
+}
+
+
+const divide = (require(a),require(b)) => return a/b;
