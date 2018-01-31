@@ -34,3 +34,5 @@ JS Generator - II: https://codepen.io/priyankamalviya/pen/xLEXwp
 JS Generator - III : https://codepen.io/priyankamalviya/pen/xLRVNa
 
 JS Generator - IV: https://codepen.io/priyankamalviya/pen/KvNYEj
+
+Template Literals MiniProject - https://codepen.io/priyankamalviya/full/RQPqpa/
