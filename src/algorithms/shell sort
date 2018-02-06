@@ -8,6 +8,10 @@ faster than a simple nearest neighbor exchange.
 Donald Shell published the first version of this sort in 1959. 
 The running time of Shellsort is heavily dependent on the gap sequence it uses. 
 For many practical variants, determining their time complexity remains an open problem. (from Wikipedia)
+
+
+Space complexity: О(n)
+Time complexity: /Omega(nlog(n))
 */
 
 
