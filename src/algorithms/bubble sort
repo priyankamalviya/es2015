@@ -1,3 +1,5 @@
+/* Bubble sort has the worst runtime complexity (O(n^2)). Its space complexity is O(1)*/
+
 function bubbleSort(array) {
   let swapped;
   do {
