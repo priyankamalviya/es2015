@@ -1,3 +1,10 @@
+// This function is written to demo an example of pure functions. 
+// Enter any string and it returns position of each alphabet in the string.
+// A pure function is a function which: 
+// i) Given the same input, will always return the same output. ii) Produces no side effects.
+
+
+
 function splitWords(text) {
   return text.split(/[\s.,\/:\n]+/);
 }
